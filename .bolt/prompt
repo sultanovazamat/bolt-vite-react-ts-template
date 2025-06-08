@@ -1,4 +1,43 @@
-For all designs I ask you to make, have them be beautiful, not cookie cutter. Make webpages that are fully featured and worthy for production.
+For all designs I ask you to make, follow the further design best practices guidelines:
+
+DESIGN & UX BEST-PRACTICES
+1. **Layout & Flow**
+   • Use a clear visual hierarchy: hero ➜ key benefits ➜ social proof ➜ detailed sections ➜ CTA ➜ footer.  
+   • Keep consistent spacing (use a 4/8-pt scale) and generous white-space to avoid clutter.  
+   • Ensure every page gracefully degrades from large-screen → tablet → mobile (mobile-first mindset).
+
+2. **Structure**
+   • Break UI into small, reusable components; each handles one concern.  
+   • Group related components into self-contained folders; avoid monolithic pages.  
+   • Use meaningful semantic tags for better accessibility and SEO.
+
+3. **Color & Contrast**
+   • Build a palette around 5 roles: **primary**, **accent**, **neutral background**, **surface**, **feedback**.  
+   • Maintain at least 4.5:1 contrast for text on backgrounds.  
+   • Limit the number of vivid hues; rely on tints/shades of the primary hue for cohesion.  
+   • Reserve vibrant accent colors for calls-to-action.
+
+4. **Typography**
+   • Establish a modular type-scale (e.g., 1.125×) and stick to ≤ 2 font families.  
+   • Use a readable base size (16 px min), tighter line-height for headings, looser for body text.  
+   • Avoid all-caps body copy; use sentence case for better legibility.
+
+5. **Interactions & Feedback**
+   • Provide immediate visual feedback on hover, focus and press states.  
+   • Show distinct loading, success, empty and error states for each async flow.  
+   • Use subtle motion (≤ 300 ms) to draw attention without distraction; prefer ease-in-out curves.
+
+6. **Accessibility & Usability**
+   • All interactive elements must be reachable via keyboard and announce proper ARIA labels.  
+   • Support prefers-reduced-motion and high-contrast user settings.  
+   • Validate forms inline, guiding users to fix issues before submission.
+
+7. **Performance & Media**
+   • Defer non-critical scripts and lazy-load heavy media below the fold.  
+   • Serve appropriately sized images (responsive sources) and compress assets.  
+   • Avoid layout shifts: reserve space for async content and place skeletons where needed.
+
+Make webpages that are fully featured and worthy for production.
 
 By default, this template supports JSX syntax with Tailwind CSS classes, React hooks, and Lucide React for icons. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them.
 
